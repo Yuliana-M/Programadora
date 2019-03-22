@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datos Personales</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport"contect="width-device-width">
+	<meta name="descrpcion"contect="Hoja de vida">
+	<meta name="keywords"contect="hoja de vida y porafolio">
+	<meta name="autor"contect="Yuliana Muñoz">
+	<link rel="shortcut.ico" type="img/x-ico" href="imagenes/favicon.jpg">
+    <link rel="icon" href="imagenes/favicon.jpg" sizes="32x32" />
+
+	
+
+<style type="text/css">
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.header {
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ color: #fff;
+}
+
+.content {
+ max-width: 49rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ margin: auto;
+ text-align: center;
+}
+
+.header-video {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100vh;
+ overflow: hidden;
+}
+
+.header.video video {
+ min-width: 100%;
+ min-height: 100%;
+}
+
+.header-overlay {
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: #303952;
+ z-index: 1;
+ opacity: .65;
+ }
+
+.header-content  {
+ z-index: 2;
+ }
+
+
+
+.btn {
+ background: #f70c8d;
+ color: #fff;
+ font-size: 1.2rem;
+ padding: 1rem 2rem;
+ text-decoration: none;
+}
+
+.p {
+ background: #f70c8d;
+ color: #fff;
+ font-size: 1.2rem;
+ padding: 1rem 2rem;
+ text-decoration: none;
+}
+
+.tabla {
+    z-index: 2;
+    border-color: #f70c8d;
+}
+@media (max-width:960px) {
+    .content {
+        padding: 0 3rem 0 3rem;
+
+    }
+}
+
+
+.centro {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*pie de pagina*/
+
+footer{
+	padding: 10px;
+	margin-top: 0px;
+	color: #fff;
+	background-color: rgba(250, 34, 88, 0.788);
+	text-align: center;
+}
+</style>
+
+</head>
+<body>
+<header class="header content">
+   <div class="header-video">
+       <video src="video/manos.mp4" loop autoplay preload muted></video>
+   </div>
+
+   <div class="header-overlay"></div>
+
+   <div class="header-content">
+       <img class="centro"  src="imagenes/1.jpg" alt="fotografia">
+      
+        <a href="portafolio.html" class="btn">Portafolio</a>
+        <a href="index.html" class="p">Perfil</a>
+    </div>
+
+    <table class="tabla" border="2">
+        <tr><td>Nombre</td>
+            <td>Darli Yuliana Muñoz Tobar</td>
+        </tr>
+        <tr>
+            <td>Numero de <br/>cedula de ciudadania</td>
+            <td colspan="2">1107525734</td>
+        </tr>
+        
+        <tr>
+            <td>direccion de <br/>recidencia</td>
+            <td colspan="2">calle 18 carrera 46B-25 APTO 203 <br/> Cali, Valle del cauca
+            </td>
+        </tr>
+        
+        <tr>
+                <td>Direcion de <br/>correo electronico</td>
+                <td colspan="2">yulianatobar24@gmail.com 
+                </td>
+        </tr>
+        <tr>
+                <td>Formacion <br/>academica</td>
+                <td colspan="2"> Bachiller  </td>
+        </tr>
+         <tr>
+                <td>cursos </td>
+                <td colspan="2"> <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Formacion Sena </a>  </td>
+        </tr>
+        </table>
+
+
+
+</header>
+
+
+
+
+
+   <footer>
+	  <b><p align="center"> Yuliana Muñoz cpyight &copy;2019</p></b>
+   </footer>
+</body>
+</html>
+
+
+

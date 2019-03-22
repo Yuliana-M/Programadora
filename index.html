@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yuliana Muñoz</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport"contect="width-device-width">
+	<meta name="descrpcion"contect="Hoja de vida">
+	<meta name="keywords"contect="hoja de vida y porafolio">
+	<meta name="autor"contect="Yuliana Muñoz">
+	<link rel="shortcut.ico" type="img/x-ico" href="imagenes/favicon.jpg">
+    <link rel="icon" href="imagenes/favicon.jpg" sizes="32x32" />
+
+	
+
+<style type="text/css">
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.header {
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ color: #fff;
+}
+
+.content {
+ max-width: 49rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ margin: auto;
+ text-align: center;
+}
+
+.header-video {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100vh;
+ overflow: hidden;
+}
+
+.header.video video {
+ min-width: 100%;
+ min-height: 100%;
+}
+
+.header-overlay {
+ height: 100vh;
+ width: 100vw;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: #303952;
+ z-index: 1;
+ opacity: .65;
+ }
+
+.header-content  {
+ z-index: 2;
+ }
+
+.header-content h1 {
+ font-size: 60px;
+ margin-bottom: 0;
+ font-family: 'Lobster', cursive;
+}
+
+
+
+.header-content p {
+ font-size: 1rem;
+ display: block;
+ padding-bottom: 2rem;
+}
+
+.btn {
+ background: #f70c8d;
+ color: #fff;
+ font-size: 1.2rem;
+ padding: 1rem 2rem;
+ text-decoration: none;
+}
+
+.bton {
+ background: #f70c8d;
+ color: #fff;
+ font-size: 1.1rem;
+ padding: 1rem 1rem;
+ text-decoration: none;
+}
+
+.f {
+ background: #4a24f1ad;
+ color: #fff;
+ font-size: .8rem;
+ padding: 1rem 1rem;
+ text-decoration: none;
+}
+
+.i {
+ background: #fa11b4c9;
+ color: #fff;
+ font-size: .8rem;
+ padding: 1rem 1rem;
+ text-decoration: none;
+ transition: all 0.5s linear;
+}
+
+.t {
+ background: #0ce7f7cb;
+ color: #fff;
+ font-size: .8rem;
+ padding: 1rem 1rem;
+ text-decoration: none;
+}
+
+
+@media (max-width:960px) {
+    .content {
+        padding: 0 3rem 0 3rem;
+
+    }
+}
+
+
+.centro {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*cajas*/
+
+#cajas{
+	margin-top: 10px;
+    z-index: 2;
+    text-decoration: none;
+}
+#cajas .cajas{
+	float: right;
+	text-align: center;
+	width: 32%;
+	padding: 20px;
+    
+}
+
+#cajas{
+	margin-top: 5px;
+    z-index: 2;
+    text-decoration: none;
+}
+#cajas .cajas{
+	float: right;
+	text-align: center;
+	width: 32%;
+	padding: 20px;
+
+}
+
+img {
+    transition: all 0.5s linear;
+}
+
+img:hover{
+    transform: scale(0.9)
+
+
+}
+
+/*pie de pagina*/
+
+footer{
+	padding: 10px;
+	margin-top: 0px;
+	color: #fff;
+	background-color: rgba(250, 34, 88, 0.788);
+	text-align: center;
+}
+</style>
+
+</head>
+<body>
+<header class="header content">
+   <div class="header-video">
+       <video src="video/manos.mp4" loop autoplay preload muted></video>
+   </div>
+
+   <div class="header-overlay"></div>
+
+   <div class="header-content">
+       <img class="centro"  src="imagenes/1.jpg" alt="fotografia">
+       <h1>Yuliana Muñoz</h1>
+       <p>Diseñadora Web </p>
+     <a href="portafolio.html" class="btn">Portafolio</a>
+     <a href="datos.html" class="bton">Info. Personal</a>
+    </div>
+
+  
+
+    <section  id="cajas">
+        <div class="contenedor">
+            <div class="cajas">
+                <img src="imagenes/facebook.png" width="150px">
+                <h3> Facebok</h3>
+                <a href="https://www.facebook.com/Darli.Yuliana/?ref=bookmarks" target="_black" class="f">sigueme</a>
+            </div>
+    
+        
+         <div class="cajas">
+                <img src="imagenes/instragram.png" width="150px" >
+               <h3> Instagram</h3></a>
+               <a href="https://www.instagram.com/darli.yuliana/?hl=es-la" target="_black" class="i">SIgueme</a>
+        </div>
+    
+    
+        <div class="cajas">
+                <img src="imagenes/twtter.png" width="150px" >
+                 <h3> twtter</h3></a>
+                 <a href="https://twitter.com/darli_yuliiana" target="_black" class="t">Sigueme</a>
+    
+        </div>
+    
+        
+        </section>
+        
+      
+</section>
+
+
+</header>
+
+
+
+
+
+   <footer>
+	  <b><p align="center"> Yuliana Muñoz cpyight &copy;2019</p></b>
+   </footer>
+</body>
+</html>
